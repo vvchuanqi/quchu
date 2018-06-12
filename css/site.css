@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* HTML5/CSS:vvchuanqi@163.com 2016.05.10 */
+/* start 解决平板电脑的适配问题 */
+@media(max-height: 768px) and (max-width: 1280px){
+	
+	.container{max-width: 1024px;width:100%;padding-left:15px;padding-right:15px;}
+	.swiper-container-a{min-width:1000px;}
+	.phone-box{width:360px;}
+	.phone-box > img{display:block;width:100%;}
+	.intro{margin-left:400px;padding-top:10px;}
+	.index-title{background-size: 70% auto;background-position: left center;width:auto;}
+	.intro table{width:auto;}
+	.intro table td{vertical-align: top;}
+	.intro .btn-black{min-width:160px;font-size:16px;padding: 14px 12px;}
+	.intro .img-download{margin-left:30px;}
+	.day-night-box{right:20px;}
+	.padTop15{padding-top:15px;}
+
+	/* start 第二页 */
+	.iconLogo{margin:30px auto;display:block;max-width: 100%;}
+	.aniHover{width:140px;height:140px;margin-top:30px;}
+	.h3{font-size:36px !important;}
+	.h5{font-size:28px !important;}
+	/* start 第三页 */
+	.coreBig{width:330px !important;height:354px !important;background-size: 100% auto !important;margin-top:40px !important;}
+	.hiddenBlock h4{font-size:20px;margin-bottom:5px;}
+	.hiddenBlock .swiper-container-c{height:80px !important;}
+	.hiddenBlock .swiper-container-c table td{height:auto !important;}
+	.hiddenBlock .swiper-container-c table td img{width:60px;height:60px;}
+	.hiddenBlock .arrow-left{left:-40px;}
+	.hiddenBlock .arrow-right{right:-40px;}
+
+	/* start 第四页 */
+	.job-list-ul{text-align:center;width:auto;margin:10px auto 20px;}
+	.job-list-ul > li{width:80px;height:80px;float:none;display:inline-block;}
+	.avatar-big{display:none;}
+	.job_des{margin-left: 220px;}
+	.job-list-ul > li.last .alt{z-index: 999;}
+}
+@media(max-height: 768px) and (max-width: 1024px){
+	body{min-width: 768px;}
+	.day-night-box{top:180px !important;}
+	.container{max-width:100%;width:auto;padding-left:15px;padding-right:15px;height:auto !important;position: static !important;margin-top: 0 !important;}
+
+	.coreBig{margin: 0px auto 20px  !important;}
+	.swiper-container-a{width:1024px;height:100%;max-width: 1024px;margin:0;overflow:hidden;}
+	.phone-box{width:360px;}
+	.phone-box > img{display:block;width:100%;}
+	.intro{margin-left:400px;padding-top:10px;}
+	.h3{font-size:30px !important;    margin: 0 auto 15px !important;}
+	.h5{font-size:22px !important;    margin: 0 0 15px !important;}
+}
+/* end 解决平板电脑的适配问题 */
